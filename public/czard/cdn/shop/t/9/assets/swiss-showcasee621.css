@@ -1,0 +1,14 @@
+
+.swiss-page .cr {
+  --cr-paper: var(--paper);
+  --cr-paper-2: var(--paper);
+  --cr-ink: var(--ink);
+  --cr-muted: var(--muted);
+  --cr-line: var(--line);
+}
+
+.swiss-page .luxe-sub {
+  --sub-paper: var(--paper);
+  --sub-ink: var(--ink);
+  --sub-line: var(--line);
+}

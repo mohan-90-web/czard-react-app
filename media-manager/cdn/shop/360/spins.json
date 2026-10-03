@@ -1,0 +1,38 @@
+[
+  {
+    "key": "veni",
+    "path": "Veni-Black-360-Final/Veni-Black-360-Final.spin",
+    "infoId": "1279988844",
+    "frameCount": 241
+  },
+  {
+    "key": "vidi",
+    "path": "Vidi-Ivory-360-Final/Vidi-Ivory-360-Final.spin",
+    "infoId": "1447315820",
+    "frameCount": 241
+  },
+  {
+    "key": "vici",
+    "path": "Vici-Green-360-Final/Vici-Green-360-Final.spin",
+    "infoId": "2994184844",
+    "frameCount": 241
+  },
+  {
+    "key": "ecru",
+    "path": "CreamV2_360/CreamV2_360.spin",
+    "infoId": "1236478194",
+    "frameCount": 151
+  },
+  {
+    "key": "lac-leman",
+    "path": "Siwss_Blue_360/Siwss_Blue_360.spin",
+    "infoId": "707556236",
+    "frameCount": 151
+  },
+  {
+    "key": "jura-gruen",
+    "path": "Swiss_Green_360/Green_360.spin",
+    "infoId": "79879970",
+    "frameCount": 151
+  }
+]

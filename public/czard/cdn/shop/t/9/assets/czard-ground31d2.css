@@ -1,0 +1,26 @@
+
+:root {
+  --czard-ground: #feddab66;
+  --czard-ground-solid: #fff1dd;
+
+  --czard-ground-2: #fbe9cf;
+}
+
+:root,
+.m-color-default {
+  --color-background: 255, 241, 221;
+  --color-background-secondary: 251, 233, 207;
+  --gradient-background: var(--czard-ground-solid);
+}
+
+html {
+  background-color: var(--czard-ground-solid);
+}
+
+.m-navbar-custom {
+  --navbar-bg-color: var(--czard-ground-solid);
+}
+
+.m-navbar-custom {
+  box-shadow: 0 2px 10px rgba(106, 74, 49, 0.08);
+}

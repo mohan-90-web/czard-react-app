@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://www.czard.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://www.czard.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://www.czard.com/collections/swiss-automatic-watches.atom"/>
+  <title>CZARD</title>
+  <updated>2026-07-31T19:24:31+05:30</updated>
+  <author>
+    <name>CZARD</name>
+  </author>
+  <entry>
+    <id>https://www.czard.com/products/9063672447130</id>
+    <published>2026-07-31T19:24:31+05:30</published>
+    <updated>2026-07-31T19:24:31+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://www.czard.com/products/lac-leman"/>
+    <title>LAC LÉMAN</title>
+    <s:type></s:type>
+    <s:vendor>CZARD</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0759/3787/4074/files/Blue_Swiss_Low_Corrected.webp?v=1785596400"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>CZARD<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            59870.00 - 69869.00
+            <a href="https://www.czard.com/products/lac-leman">(4 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Lac Léman captures a deep, glassy blue. calm at first glance, endlessly shifting beneath the light.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.czard.com/products/9063672447130</id>
+      <title>none</title>
+      <s:price currency="INR">59870.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9063672447130</id>
+      <title>1999</title>
+      <s:price currency="INR">61869.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9063672447130</id>
+      <title>3999</title>
+      <s:price currency="INR">63869.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9063672447130</id>
+      <title>9999</title>
+      <s:price currency="INR">69869.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.czard.com/products/9063737753754</id>
+    <published>2026-07-31T19:24:18+05:30</published>
+    <updated>2026-07-31T19:24:18+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://www.czard.com/products/jura-gruen"/>
+    <title>JURA GRUÉN</title>
+    <s:type></s:type>
+    <s:vendor>CZARD</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0759/3787/4074/files/Green_Swiss_Low_corrected.webp?v=1785596400"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>CZARD<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            59870.00 - 69869.00
+            <a href="https://www.czard.com/products/jura-gruen">(4 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Jura Gruén captures the deep, mineral green of Switzerland’s Jura forests.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.czard.com/products/9063737753754</id>
+      <title>none</title>
+      <s:price currency="INR">59870.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9063737753754</id>
+      <title>1999</title>
+      <s:price currency="INR">61869.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9063737753754</id>
+      <title>3999</title>
+      <s:price currency="INR">63869.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9063737753754</id>
+      <title>9999</title>
+      <s:price currency="INR">69869.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.czard.com/products/9063653572762</id>
+    <published>2026-07-31T19:24:02+05:30</published>
+    <updated>2026-07-31T19:24:02+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://www.czard.com/products/ecru"/>
+    <title>ÉCRU</title>
+    <s:type></s:type>
+    <s:vendor>CZARD</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0759/3787/4074/files/White_Swiss_Low_corrected.webp?v=1785596400"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>CZARD<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            59870.00 - 69869.00
+            <a href="https://www.czard.com/products/ecru">(4 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>Écru captures the soft warmth of ivory washed with a fine trace of sand. understated, and luxurious.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.czard.com/products/9063653572762</id>
+      <title>none</title>
+      <s:price currency="INR">59870.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9063653572762</id>
+      <title>1999</title>
+      <s:price currency="INR">61869.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9063653572762</id>
+      <title>3999</title>
+      <s:price currency="INR">63869.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9063653572762</id>
+      <title>9999</title>
+      <s:price currency="INR">69869.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+  </entry>
+</feed>

@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://www.czard.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://www.czard.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://www.czard.com/collections/chronograph-watches.atom"/>
+  <title>CZARD</title>
+  <updated>2026-07-31T19:23:43+05:30</updated>
+  <author>
+    <name>CZARD</name>
+  </author>
+  <entry>
+    <id>https://www.czard.com/products/9063617233050</id>
+    <published>2026-07-31T19:23:43+05:30</published>
+    <updated>2026-07-31T19:23:43+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://www.czard.com/products/vici"/>
+    <title>VICI</title>
+    <s:type></s:type>
+    <s:vendor>CZARD</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0759/3787/4074/files/Vici-hero2.jpg?v=1785767959"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>CZARD<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            14999.00 - 21498.00
+            <a href="https://www.czard.com/products/vici">(14 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p class="ld__desc">The final statement. A double layered dial with a Two Tone Finish.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.czard.com/products/9063617233050</id>
+      <title>One Year Warranty / none</title>
+      <s:price currency="INR">14999.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9063617233050</id>
+      <title>One Year Warranty / 499</title>
+      <s:price currency="INR">15498.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9063617233050</id>
+      <title>One Year Warranty / 999</title>
+      <s:price currency="INR">15998.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9063617233050</id>
+      <title>One Year Warranty / 1999</title>
+      <s:price currency="INR">16998.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9063617233050</id>
+      <title>One Year Warranty / 2499</title>
+      <s:price currency="INR">17498.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9063617233050</id>
+      <title>One Year Warranty / 2999</title>
+      <s:price currency="INR">17998.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9063617233050</id>
+      <title>One Year Warranty / 3999</title>
+      <s:price currency="INR">18998.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9063617233050</id>
+      <title>Lifetime Warranty / none</title>
+      <s:price currency="INR">17499.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9063617233050</id>
+      <title>Lifetime Warranty / 499</title>
+      <s:price currency="INR">17998.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9063617233050</id>
+      <title>Lifetime Warranty / 999</title>
+      <s:price currency="INR">18498.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9063617233050</id>
+      <title>Lifetime Warranty / 1999</title>
+      <s:price currency="INR">19498.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9063617233050</id>
+      <title>Lifetime Warranty / 2499</title>
+      <s:price currency="INR">19998.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9063617233050</id>
+      <title>Lifetime Warranty / 2999</title>
+      <s:price currency="INR">20498.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9063617233050</id>
+      <title>Lifetime Warranty / 3999</title>
+      <s:price currency="INR">21498.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.czard.com/products/9063535313050</id>
+    <published>2026-07-31T19:23:21+05:30</published>
+    <updated>2026-07-31T19:23:21+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://www.czard.com/products/vidi"/>
+    <title>VIDI</title>
+    <s:type></s:type>
+    <s:vendor>CZARD</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0759/3787/4074/files/Vidi-dial_1_Full.jpg?v=1785767968"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>CZARD<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            14999.00 - 21498.00
+            <a href="https://www.czard.com/products/vidi">(14 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p class="ld__desc">Our Second Icon. Rose gold over a lacquered Ivory Dial.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://www.czard.com/products/9063535313050</id>
+      <title>One Year Warranty / none</title>
+      <s:price currency="INR">14999.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9063535313050</id>
+      <title>One Year Warranty / 499</title>
+      <s:price currency="INR">15498.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9063535313050</id>
+      <title>One Year Warranty / 999</title>
+      <s:price currency="INR">15998.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9063535313050</id>
+      <title>One Year Warranty / 1999</title>
+      <s:price currency="INR">16998.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9063535313050</id>
+      <title>One Year Warranty / 2499</title>
+      <s:price currency="INR">17498.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9063535313050</id>
+      <title>One Year Warranty / 2999</title>
+      <s:price currency="INR">17998.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9063535313050</id>
+      <title>One Year Warranty / 3999</title>
+      <s:price currency="INR">18998.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9063535313050</id>
+      <title>Lifetime Warranty / none</title>
+      <s:price currency="INR">17499.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9063535313050</id>
+      <title>Lifetime Warranty / 499</title>
+      <s:price currency="INR">17998.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9063535313050</id>
+      <title>Lifetime Warranty / 999</title>
+      <s:price currency="INR">18498.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9063535313050</id>
+      <title>Lifetime Warranty / 1999</title>
+      <s:price currency="INR">19498.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9063535313050</id>
+      <title>Lifetime Warranty / 2499</title>
+      <s:price currency="INR">19998.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9063535313050</id>
+      <title>Lifetime Warranty / 2999</title>
+      <s:price currency="INR">20498.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9063535313050</id>
+      <title>Lifetime Warranty / 3999</title>
+      <s:price currency="INR">21498.00</s:price>
+      <s:sku/>
+      <s:grams>0</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://www.czard.com/products/9059827024026</id>
+    <published>2026-07-31T19:08:02+05:30</published>
+    <updated>2026-07-31T19:08:02+05:30</updated>
+    <link rel="alternate" type="text/html" href="https://www.czard.com/products/veni"/>
+    <title>VENI</title>
+    <s:type></s:type>
+    <s:vendor>CZARD</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0759/3787/4074/files/Veni-hero-1.jpg?v=1785767954"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>CZARD<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            14999.00 - 21498.00
+            <a href="https://www.czard.com/products/veni">(14 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>The first bearing in the arc. Rose gold over a charcoal finished dial.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>compass</s:tag>
+    <s:variant>
+      <id>https://www.czard.com/products/9059827024026</id>
+      <title>One Year Warranty / none</title>
+      <s:price currency="INR">14999.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9059827024026</id>
+      <title>One Year Warranty / 499</title>
+      <s:price currency="INR">15498.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9059827024026</id>
+      <title>One Year Warranty / 999</title>
+      <s:price currency="INR">15998.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9059827024026</id>
+      <title>One Year Warranty / 1999</title>
+      <s:price currency="INR">16998.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9059827024026</id>
+      <title>One Year Warranty / 2499</title>
+      <s:price currency="INR">17498.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9059827024026</id>
+      <title>One Year Warranty / 2999</title>
+      <s:price currency="INR">17998.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9059827024026</id>
+      <title>One Year Warranty / 3999</title>
+      <s:price currency="INR">18998.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9059827024026</id>
+      <title>Lifetime Warranty / none</title>
+      <s:price currency="INR">17499.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9059827024026</id>
+      <title>Lifetime Warranty / 499</title>
+      <s:price currency="INR">17998.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9059827024026</id>
+      <title>Lifetime Warranty / 999</title>
+      <s:price currency="INR">18498.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9059827024026</id>
+      <title>Lifetime Warranty / 1999</title>
+      <s:price currency="INR">19498.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9059827024026</id>
+      <title>Lifetime Warranty / 2499</title>
+      <s:price currency="INR">19998.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9059827024026</id>
+      <title>Lifetime Warranty / 2999</title>
+      <s:price currency="INR">20498.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://www.czard.com/products/9059827024026</id>
+      <title>Lifetime Warranty / 3999</title>
+      <s:price currency="INR">21498.00</s:price>
+      <s:sku/>
+      <s:grams>300</s:grams>
+    </s:variant>
+  </entry>
+</feed>
