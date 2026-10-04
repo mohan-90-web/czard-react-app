@@ -15,16 +15,27 @@ The React Compiler is not enabled on this template because of its impact on dev 
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
 
+## Supabase Integration
+
+The media uploader from the downloaded project is integrated at `/admin/media`. It requires Supabase Auth and an entry in `czard_media_admins`; anonymous users can read public media metadata but cannot upload, update, or delete assets. The migration replaces the downloaded project's unsafe public-write policies. Do not copy its `.env` file into this repository.
+
+1. Copy `.env.example` to `.env.local` and set `VITE_SUPABASE_URL`, `VITE_SUPABASE_ANON_KEY`, and `VITE_CZARD_SERIAL_API_BASE` for the Supabase project.
+2. Link the Supabase CLI to that project and run `supabase db push` from this folder. It applies all migrations in timestamp order, including the three imported migrations, the secure media/number schema, and the local-path seed. No migration truncates `media_assets`. These migrations have **not** been applied to the remote database.
+3. Create a Supabase Auth user for the media administrator, then insert that user's UUID into `public.czard_media_admins` using the Supabase SQL editor.
+4. Deploy the serial Edge Function with `supabase functions deploy serials`.
+
+The downloaded 365-path manifest is retained, with its one image absent from this local checkout removed. [`20261004090001_seed_local_media_asset_paths.sql`](supabase/migrations/20261004090001_seed_local_media_asset_paths.sql) adds upload mappings for every supported media file under `media-manager/cdn/shop` (including the 360 frames). Storefront HTML keeps using its existing local image paths; these DB rows do not rewrite those URLs.
+
 ## Watch Number Selection Backend
 
-The serial-number picker UI is present, but its database-backed number chart and reservation API are not implemented in this project yet. The picker requests `/api/serials/chart?product=...`; in local development it resolves the portal origin from the picker script, so it currently requests the local Vite host, where that API does not exist. The grid cannot load until a backend is deployed and the picker is configured to use it, or Vite proxies the API during development.
+The picker, database schema, chart/hold/release SQL functions, and Supabase Edge Function source are present. Number selection is **not live yet**: the migration and Edge Function have not been deployed, and the downloaded project contains no authoritative watch-number inventory to seed. The Edge Function URL is supplied by `VITE_CZARD_SERIAL_API_BASE`; without it, the picker falls back to its script origin and requests the local Vite host.
 
 ### Database Requirements
 
 - Map each watch product to a number pool or chapter. Preserve current IDs as migration references where useful: Veni `9059827024026`; Vici `9063617233050`; Vidi `9063535313050`; Ecru `9063653572762`; Jura Gruen `9063737753754`; Lac Leman `9063672447130`.
-- Store number pools/chapters, tiers, and watch numbers. Each number needs its pool, numeral/display label, tier, reservation fee, and state (`available`, `held`, `sold`, or `withheld`). Enforce uniqueness of a numeral within its pool.
-- Store holds with the number, session ID, private hold token, state, and expiry. Holds last 12 minutes. Creating or refreshing a hold must be atomic so concurrent shoppers cannot hold the same number.
-- Link holds to orders/reservations. A paid order permanently marks the number sold; expiry, release, cancellation, and refund transitions must be handled.
+- Seed the number pools/chapters, tiers, and watch numbers from the authoritative inventory. Each number needs its pool, numeral/display label, tier, reservation fee, and state (`available`, `sold`, or `withheld`). The migration enforces uniqueness within a pool; active holds are represented separately.
+- Holds store the number, session ID, private token, state, and expiry. The database hold function uses a row lock and a 12-minute expiry so two shoppers cannot reserve the same number at once.
+- Link orders to reservations. The schema is present, but a paid-order webhook still needs to mark numbers sold and handle cancellation/refund transitions.
 - Add a waitlist table if the queue feature is enabled. Custom-number checks must use the same number register.
 
 ### Required API
@@ -36,7 +47,7 @@ The serial-number picker UI is present, but its database-backed number chart and
 - `POST /api/serials/queue`: add a shopper to the waitlist for a number.
 - `POST /api/serials/revalidate`: validate all held numbers in the cart before checkout.
 
-The picker implementation is in [`public/portal.czard.com/czard-serial-picker.js`](public/portal.czard.com/czard-serial-picker.js). Its API origin is configurable through the script's `data-portal` attribute. The backend must also validate input, rate-limit public endpoints, protect hold tokens, and perform inventory changes transactionally; database tables alone are not sufficient.
+The picker implementation is in [`public/portal.czard.com/czard-serial-picker.js`](public/portal.czard.com/czard-serial-picker.js); the Edge Function is in [`supabase/functions/serials/index.ts`](supabase/functions/serials/index.ts). Custom-number lookup only recognizes numbers in the seeded register; automatic creation/fulfillment of custom numbers is not implemented. Add rate limiting and order-webhook handling before production use.
 
 ## Profile Authentication Backend
 

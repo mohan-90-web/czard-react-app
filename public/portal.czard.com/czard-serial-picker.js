@@ -718,8 +718,9 @@
     const opts = options || {}
     const headers = { 'x-czard-session': sessionId() }
     if (opts.body) headers['Content-Type'] = 'application/json'
+    const apiBase = window.CZARD_SERIAL_API_BASE || CONFIG.portal
 
-    return fetch(CONFIG.portal + path, {
+    return fetch(apiBase + path, {
       method: opts.method || 'GET',
       headers: headers,
       body: opts.body ? JSON.stringify(opts.body) : undefined,
