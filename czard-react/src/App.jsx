@@ -1,5 +1,6 @@
 import { useRef } from 'react'
 import AccountApp from './AccountApp.jsx'
+import MediaManagerApp from './MediaManagerApp.jsx'
 import './App.css'
 
 const LOCAL_CART_KEY = 'czard-local-cart'
@@ -47,6 +48,10 @@ function stripShopifyRuntime(documentRef) {
 function App() {
   const storefrontFrame = useRef(null)
 
+  if (window.location.pathname.startsWith('/admin/media')) {
+    return <MediaManagerApp />
+  }
+
   if (window.location.pathname.startsWith('/account')) {
     return <AccountApp />
   }
@@ -54,6 +59,10 @@ function App() {
   function handleStorefrontLoad() {
     const document = storefrontFrame.current?.contentDocument
     if (!document) return
+
+    if (document.defaultView) {
+      document.defaultView.CZARD_SERIAL_API_BASE = import.meta.env.VITE_CZARD_SERIAL_API_BASE || ''
+    }
 
     stripShopifyRuntime(document)
 

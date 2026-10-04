@@ -1,0 +1,4 @@
+project_id = "czard"
+
+[functions.serials]
+verify_jwt = false
